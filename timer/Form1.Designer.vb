@@ -41,6 +41,7 @@ Partial Class Form1
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("LCD2", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.DarkSlateGray
         Me.Label1.Location = New System.Drawing.Point(200, 21)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(25, 24)
@@ -85,7 +86,7 @@ Partial Class Form1
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("LCD2", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.Lime
+        Me.Label2.ForeColor = System.Drawing.Color.DarkSlateGray
         Me.Label2.Location = New System.Drawing.Point(115, 21)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(25, 24)
@@ -97,7 +98,7 @@ Partial Class Form1
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("LCD2", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.Lime
+        Me.Label3.ForeColor = System.Drawing.Color.DarkSlateGray
         Me.Label3.Location = New System.Drawing.Point(25, 21)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(25, 24)
@@ -108,6 +109,7 @@ Partial Class Form1
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("LCD2", 48.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.ForeColor = System.Drawing.Color.DarkSlateGray
         Me.Label4.Location = New System.Drawing.Point(157, -10)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(37, 57)
@@ -119,7 +121,7 @@ Partial Class Form1
         Me.Label5.AutoSize = True
         Me.Label5.BackColor = System.Drawing.Color.Transparent
         Me.Label5.Font = New System.Drawing.Font("LCD2", 48.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.Color.Lime
+        Me.Label5.ForeColor = System.Drawing.Color.DarkSlateGray
         Me.Label5.Location = New System.Drawing.Point(72, -10)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(37, 57)
@@ -128,7 +130,7 @@ Partial Class Form1
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.DarkRed
+        Me.Panel1.BackColor = System.Drawing.Color.PaleTurquoise
         Me.Panel1.Controls.Add(Me.Label3)
         Me.Panel1.Controls.Add(Me.Label4)
         Me.Panel1.Controls.Add(Me.Label2)
